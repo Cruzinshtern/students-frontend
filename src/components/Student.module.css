@@ -1,0 +1,75 @@
+.studentCard {
+    width: 400px;
+    height: 500px;
+    padding-top: 60px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    background-image: url("/pinnednote.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    box-sizing: border-box;
+
+}
+
+.cartHeading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartHeading_btn_del {
+    width: 60px;
+    height: 60px;
+    background-color: #a31010;
+    color: white;
+    font-weight: bold;
+}
+
+.cartHeading_btn_del:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cartHeading_btn_edt {
+    width: 60px;
+    height: 60px;
+    background-color: #c9cf1b;
+    color: white;
+    font-weight: bold;
+}
+
+.cartHeading_btn_edt:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.studentName {
+    font-size: 25px;
+    margin: 0 0 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.studentName_firstName {
+    margin: 0 5px 0 5px;
+}
+
+.studentLang {
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.studentPhone {
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.studentEmail {
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.studentDesc {
+    text-align: center;
+}
+

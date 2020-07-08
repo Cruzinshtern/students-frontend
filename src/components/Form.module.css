@@ -1,0 +1,99 @@
+.student_form {
+    margin: 0 20px 0 20px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-image: url("/scroll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.st_name {
+    text-align: center;
+}
+
+.st_name p {
+    margin: 15px 0 0 0;
+    padding: 3px;
+}
+
+.st_name input {
+    margin: 3px;
+    padding: 5px;
+}
+
+.st_gender {
+    text-align: center;
+}
+
+.st_gender p {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.st_lang {
+    text-align: center;
+}
+
+.st_lang p {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.st_phone {
+    text-align: center;
+}
+
+.st_phone p {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.st_phone input {
+    padding: 5px;
+}
+
+.st_email {
+    text-align: center;
+}
+
+.st_email p {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.st_email input {
+    padding: 5px;
+}
+
+.st_desc {
+    margin: 15px 0 0 0;
+}
+
+.st_desc textarea {
+    width: 300px;
+    height: 80px;
+}
+
+.formbtn {
+    background-color: green;
+    margin: 8px 15px 15px 15px;
+    padding: 5px;
+    font-size: large;
+    font-family: "Times New Roman";
+}
+
+.formbtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}

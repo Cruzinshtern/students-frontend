@@ -1,0 +1,39 @@
+#headingStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#titleStyle  {
+    color: black;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav_bar {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav_bar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar ul li {
+    list-style: none;
+    padding: 0 15px 15px 0;
+}

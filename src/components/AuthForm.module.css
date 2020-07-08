@@ -1,0 +1,14 @@
+.authform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.authform input {
+    margin: 15px;
+}
+
+.authform button {
+    margin-bottom: 15px;
+}

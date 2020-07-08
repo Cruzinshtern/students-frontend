@@ -1,0 +1,18 @@
+.student_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.student_list button {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+.student_cards {
+    display: flex;
+}
